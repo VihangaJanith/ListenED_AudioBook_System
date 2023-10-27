@@ -1,0 +1,35 @@
+Field_of_Study,Book_Title,Author,Genre,Publication Year,Rating
+Computer Science,Introduction to Algorithms,Thomas H. Cormen,Computer Science,2009,4
+Computer Science,Python Crash Course,Eric Matthes,Computer Science,2015,5
+Computer Science,Clean Code,Robert C. Martin,Software Engineering,2008,4.5
+Computer Science,The Pragmatic Programmer,Andrew Hunt,Software Engineering,1999,4.2
+Literature,To Kill a Mockingbird,Harper Lee,Fiction,1960,4
+Literature,The Catcher in the Rye,J.D. Salinger,Fiction,1951,3.5
+Literature,Brave World GT,George Orwell,Fiction,1949,4.5
+Literature,Brave New World,Aldous Huxley,Fiction,1932,3.8
+Physics,A Brief History of Time,Stephen Hawking,Science,1988,5
+Physics,The Elegant Universe,Brian Greene,Science,1999,4.5
+Physics,Six Easy Pieces,Richard P. Feynman,Science,1995,4.2
+Physics,"Surely You're Joking, Mr. Feynman!",Richard P. Feynman,Science,1985,4.7
+History,Sapiens,Yuval Noah Harari,History,2011,4.5
+History,"Guns, Germs, and Steel",Jared Diamond,History,1997,4.2
+History,The Silk Roads,Peter Frankopan,History,2015,4.8
+History,Collapse,Jared Diamond,History,2005,3.9
+Psychology,"Thinking, Fast and Slow",Daniel Kahneman,Psychology,2011,4.5
+Psychology,The Power of Habit,Charles Duhigg,Psychology,2012,4.2
+Psychology,Influence,Robert B. Cialdini,Psychology,1984,4.8
+Psychology,Predictably Irrational,Dan Ariely,Psychology,2008,4.6
+Psychology,Predictably Irrational World,Dan Ariely Thomas,Psychology,2004,3.2
+History,The Secret of How to Harness the Power of Positivity and Be Happy Now,Jay Shetty,History,1985,4.9
+History,The Japanese Secret to a Long and Happy Life,Dan Ariely Thomas,History,2011,4.6
+IT,The Nike Spirit in the Corporate World,Donald Katz,IT,2012,4.5
+IT,The Warren Buffett Way,Robert Hagstrom,IT,1984,4.2
+IT,21 Lessons for the 21st Century,Yuval Noah Harari,IT,2008,4.8
+IT, Mastering the Inner Game of Wealth,T Harv Eker,IT,2004,4.6
+IT,"You've Worked Hard for It, Now Make It Work for You",Monika Halan,IT,1985,3.2
+IT,Elon Musk,Ashlee Vance,IT,2011,4.9
+IT,The Monk Who Sold His Ferrari,Robin Sharma,IT,2012,4.6
+IT,The Power of Your Subconscious Mind,Joseph Murphy,IT,1984,4.5
+IT,Enemy of Aryavarta,Amish Tripathi,IT,2008,4.2
+IT,Why We Do What We Do and How to Change,Charles Duhigg,IT,2004,4.8
+IT,Master Your Mind and Defy the Odds,David Goggins,IT,1985,4.6

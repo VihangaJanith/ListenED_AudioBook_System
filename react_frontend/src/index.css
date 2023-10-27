@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-redorange {
+  background-color: #FF4500;
+}
+
+.bg-redorange {
+  background-color: #FF4500 !important;
+}
+
+.round-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fd2a2a;
+  border: none;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  cursor: pointer;
+}
+
+.round-button i {
+  color: #fff;
+  font-size: 50px;
+}
+
+.round-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
+/* documents css */
+
+.documentpagecss {}
+
+.documentpagecss h6,
+span {
+  color: #ebe8f0;
+}
+
+.documentpagecss .list-group {
+  width: 85% !important;
+}
+
+.documentpagecss .list-group-item {
+  margin-bottom: 40px;
+  border-radius: none;
+  background: linear-gradient(to right, #63a977ab, #03886075);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 100px;
+}
+
+
+.documentpagecss .list-group-item:hover {
+  transform: scaleX(1.05);
+}
+
+
+.documentpagecss .about span {
+  font-size: 12px;
+  margin-right: 10px;
+
+}
+
+.documentpagecss input[type=checkbox] {
+  position: relative;
+  cursor: pointer;
+}
+
+.documentpagecss input[type=checkbox]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: 0;
+  border: 1px solid #10a3f9;
+  border-radius: 3px;
+  background-color: white;
+
+}
+
+.documentpagecss input[type=checkbox]:checked:after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 12px;
+  border: solid #007bff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2px;
+  left: 6px;
+}
+
+.documentpagecss input[type="checkbox"]:checked+.check {
+  opacity: 1;
+}
+
+.documentpagecss li i {
+  color: #c76e32ce;
+}
+
+/* documents css */
