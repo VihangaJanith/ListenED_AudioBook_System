@@ -18,7 +18,7 @@ function App() {
 
         <Routes>
 
-          <Route path="/" element={<Predict />} />
+          <Route path="/" element={<AudioBooksPage />} />
 
           <Route path="/profile" element={<Profile />} />
           <Route path="/:id" element={<AudioPlayer />} />
