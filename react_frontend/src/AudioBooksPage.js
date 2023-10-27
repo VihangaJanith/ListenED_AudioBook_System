@@ -14,7 +14,7 @@ function AudioBooksPage() {
     }, []);
 
     const retrieveAudioBooks = () => {
-        axios.get('https://listenedapi.onrender.com/audiobook/')
+        axios.get('https://listened.onrender.com/audiobook/')
             .then((res) => {
                 setAudioBooks(res.data);
             })

@@ -104,7 +104,7 @@ function Predict() {
   //   setTranslation(translatedText);
 
   //   // Send translated data to the backend
-  //   const backendUrl = 'https://listenedapi.onrender.com/gettext/'; // Replace with your backend API URL
+  //   const backendUrl = 'https://listened.onrender.com/gettext/'; // Replace with your backend API URL
 
   //   try {
   //     const backendResponse = await axios.post(backendUrl, {
@@ -146,7 +146,7 @@ function Predict() {
   };
 
   const sendTranslationToBackend = async (translatedText) => {
-    const backendUrl = "https://listenedapi.onrender.com/predict/";
+    const backendUrl = "https://listened.onrender.com/predict/";
     const translatedLow = translatedText.toLowerCase();
     try {
       const backendResponse = await axios

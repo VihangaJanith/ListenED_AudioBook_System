@@ -27,7 +27,7 @@ const AudioPlayer = () => {
     }, [AudioBooks]);
 
     const retrieveAudioBookById = (id) => {
-        axios.get(`https://listenedapi.onrender.com/audiobook/${id}`)
+        axios.get(`https://listened.onrender.com/audiobook/${id}`)
             .then((res) => {
                 setAudioBooks(res.data);
             })

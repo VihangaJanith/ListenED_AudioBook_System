@@ -7,7 +7,7 @@ const Recommendations = () => {
   const [UserDetails, setUserDetails] = useState(null);
 
   const retrieveUserDetailsById = (id) => {
-    axios.get(`https://listenedapi.onrender.com/usermanagement/${id}`)
+    axios.get(`https://listened.onrender.com/usermanagement/${id}`)
       .then((res) => {
         setUserDetails(res.data);
       })
@@ -45,7 +45,7 @@ const Recommendations = () => {
 
   const getRecommndbooks = (user_History, study_Area) => {
     try {
-      axios.post('https://listenedapi.onrender.com/bookrecommend/', {
+      axios.post('https://listened.onrender.com/bookrecommend/', {
         "user_history_books": user_History,
         "user_study_area": study_Area
       })
