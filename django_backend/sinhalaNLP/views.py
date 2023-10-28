@@ -25,6 +25,8 @@ import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 from nltk.tokenize import word_tokenize
 from nltk import pos_tag
 
@@ -515,9 +517,6 @@ def predictword2(request, id=0):
         data = JSONParser().parse(request)
         text = data.get('text', '')
         print(text)
-
-    nltk.download('punkt')
-    nltk.download('averaged_perceptron_tagger')
 
     # Process the text with NLTK for part-of-speech tagging
     tokens = word_tokenize(text)
