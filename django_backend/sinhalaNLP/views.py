@@ -133,7 +133,7 @@ def predictword(request, id=0):
         text = data.get('text', '')
         print(text) 
 
-    nlp = spacy.load("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm-3.4.0")
 
     # Process the text
     doc = nlp(text)
