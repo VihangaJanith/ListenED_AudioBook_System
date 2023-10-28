@@ -23,6 +23,7 @@ from sklearn import preprocessing
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 import spacy
+import en_core_web_sm
 
 @csrf_exempt
 
@@ -133,7 +134,7 @@ def predictword(request, id=0):
         text = data.get('text', '')
         print(text) 
 
-    nlp = spacy.load("en_core_web_sm")
+    nlp = en_core_web_sm.load()
 
     # Process the text
     doc = nlp(text)
