@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'recommendApp.apps.RecommendappConfig',
     'booksApp.apps.BooksappConfig',
     'usermanagement.apps.UsermanagementConfig',
+    'colorpredApp.apps.ColorpredappConfig',
+    'sinhalaNLP.apps.SinhalanlpConfig'
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True

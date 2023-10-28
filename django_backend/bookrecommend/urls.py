@@ -24,7 +24,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('recommendApp.urls')),
     path('', include('booksApp.urls')),
-    path('', include('usermanagement.urls'))
+    path('', include('usermanagement.urls')),
+    path('', include('colorpredApp.urls')),
+    path('', include('sinhalaNLP.urls'))
 ]
 
 urlpatterns += staticfiles_urlpatterns()
