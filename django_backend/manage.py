@@ -7,7 +7,6 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bookrecommend.settings')
-    os.environ["SPACY_DATA"] = "../.venv/lib/python3.10/site-packages/spacy"
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
