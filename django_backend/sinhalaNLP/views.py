@@ -12,7 +12,6 @@ import speech_recognition as sr
 import pyttsx3
 from django.shortcuts import render
 from django.http import JsonResponse
-import spacy
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
@@ -23,6 +22,9 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn import preprocessing
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
+
+import spacy
+spacy.cli.download("en_core_web_sm")
 
 import nltk
 nltk.download('punkt')
