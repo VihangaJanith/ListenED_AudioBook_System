@@ -28,7 +28,8 @@ import en_core_web_sm
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk import pos_tag
-
+nltk.set_proxy('http://proxy.example.com:3128', ('USERNAME', 'PASSWORD'))
+nltk.download()
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
