@@ -1,5 +1,4 @@
 spacy==3.7.2
-en-core-web-sm==3.7.0
 asgiref==3.6.0
 dj-database-url==1.2.0
 Django==4.1.4
