@@ -307,7 +307,7 @@ def textGetbyPost(request, id=0):
         print(text)  # Print only the value of "text"
 
     
-    nlp = spacy.load("./en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
     # Process the text
     doc = nlp(text)
