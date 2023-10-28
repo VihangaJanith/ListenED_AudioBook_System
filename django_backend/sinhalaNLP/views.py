@@ -22,10 +22,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn import preprocessing
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
-
 import spacy
-spacy.cli.download("en_core_web_sm")
-
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
