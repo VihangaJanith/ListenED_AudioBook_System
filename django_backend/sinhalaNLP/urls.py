@@ -7,6 +7,5 @@ urlpatterns = [
     path('gettext/', views.textGetbyPost),
     path('predict/', views.predictword),
     path('svc/', views.svct),
-    path('audiobooks/', views.audioBook),
-    path('predict2/', views.predictword2)
+    path('audiobooks/', views.audioBook)
 ]
