@@ -13,6 +13,7 @@ import pyttsx3
 from django.shortcuts import render
 from django.http import JsonResponse
 import spacy
+spacy.download('en_core_web_sm')
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
