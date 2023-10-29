@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 spacy>=3.0.0,<4.0.0
+=======
+>>>>>>> 3451f60ca21ea843b59c80eb65a6bb9d217656fd
 asgiref==3.6.0
 dj-database-url==1.2.0
 Django==4.1.4
@@ -14,3 +17,4 @@ pandas==2.0.1
 scikit-learn==1.2.2
 SpeechRecognition==3.10.0
 pyttsx3==2.90
+spacy==3.7.2
