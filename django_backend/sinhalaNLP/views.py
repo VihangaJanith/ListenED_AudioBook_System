@@ -42,7 +42,7 @@ def svct(request, id=0):
         print(text)  # Print only the value of "text"
 
     
-    nlp = spacy.load("en_core_web_sm")
+    nlp = en_core_web_sm.load()
 
     # Process the text
     doc = nlp(text)
@@ -139,12 +139,12 @@ def predictword(request, id=0):
     if request.method == 'POST':
         data = JSONParser().parse(request)
         text = data.get('text', '')
-        print(text)
+        print(text) 
 
-    words = word_tokenize(text)
+    nlp = en_core_web_sm.load()
 
-    # Perform part-of-speech tagging
-    tagged_words = pos_tag(words)
+    # Process the text
+    doc = nlp(text)
 
     # Initialize lists for each part of speech
     nouns = []
@@ -153,15 +153,15 @@ def predictword(request, id=0):
     adverbs = []
 
     # Iterate over the tokens and identify parts of speech
-    for word, pos in tagged_words:
-        if pos.startswith('N'):
-            nouns.append(word)
-        elif pos.startswith('V'):
-            verbs.append(word)
-        elif pos.startswith('J'):
-            adjectives.append(word)
-        elif pos.startswith('R'):
-            adverbs.append(word)
+    for token in doc:
+        if token.pos_ == "NOUN":
+            nouns.append(token.text)
+        elif token.pos_ == "VERB":
+            verbs.append(token.text)
+        elif token.pos_ == "ADJ":
+            adjectives.append(token.text)
+        elif token.pos_ == "ADV":
+            adverbs.append(token.text)
 
     print("Noun phrases:", nouns)
     print("Verbs:", verbs)
@@ -314,8 +314,7 @@ def textGetbyPost(request, id=0):
         text = data.get('text', '')  # Extract the value of the "text" key
         print(text)  # Print only the value of "text"
 
-    
-    nlp = spacy.load("en_core_web_sm")
+    nlp = en_core_web_sm.load()
 
     # Process the text
     doc = nlp(text)
