@@ -8,4 +8,5 @@ urlpatterns = [
     path('predict/', views.predictword),
     path('svc/', views.svct),
     path('audiobooks/', views.audioBook)
+    path('predict2/', views.predictword2),
 ]
